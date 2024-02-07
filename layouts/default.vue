@@ -49,9 +49,15 @@
             <div class="h-12">Focus on software development and services</div>
             <div class="h-10 text-right text-2xl">专注于软件研发和服务</div>
             <div class="flex flex-1 items-end justify-end">
-              <div class="mr-3 h-10 w-10 rounded-full bg-sky-200"></div>
-              <div class="mr-3 h-10 w-10 rounded-full bg-sky-200"></div>
-              <div class="h-10 w-10 rounded-full bg-sky-200"></div>
+              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+                <svgo-weixin class="text-2xl" />
+              </div>
+              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+                <svgo-qq class="text-2xl" />
+              </div>
+              <div class="flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+                <svgo-weibo class="text-2xl" />
+              </div>
             </div>
           </div>
         </div>
@@ -61,9 +67,7 @@
         <div class="h-6 text-center text-sm leading-6 text-white">
           Copyright &copy; 2024 All Rights Reserved 亚诺隆德科技有限公司 鲁ICP备20240207号
         </div>
-        <div class="h-8 text-center text-sm leading-8 text-white">
-          Powered By 亚诺隆德科技有限公司
-        </div>
+        <div class="h-8 text-center text-sm leading-8 text-white">Powered By 亚诺隆德科技有限公司</div>
       </div>
     </div>
   </div>

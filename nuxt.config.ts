@@ -12,7 +12,11 @@ export default defineNuxtConfig({
     }
   },
   // 模块
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo'],
+  //  svgo配置
+  svgo: {
+    autoImportPath: './assets/icons'
+  },
   // 开发服务器配置
   devServer: {
     port: 3010
