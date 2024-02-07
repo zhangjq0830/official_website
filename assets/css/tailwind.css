@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .app-container {
+        @apply w-[1230px] my-0  mx-auto
+    }
+}
