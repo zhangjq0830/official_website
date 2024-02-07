@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   devServer: {
     port: 3010
   },
+  // typescript配置
   typescript: {
     typeCheck: true,
     strict: true
