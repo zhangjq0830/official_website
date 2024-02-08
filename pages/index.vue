@@ -4,12 +4,13 @@ import 'swiper/css';
 </script>
 
 <template>
-  <Swiper class="h-[40rem] bg-amber-200">
+  <!-- 轮播图 -->
+  <Swiper class="h-[40rem] bg-sky-200">
     <SwiperSlide>Slide 1</SwiperSlide>
     <SwiperSlide>Slide 2</SwiperSlide>
     <SwiperSlide>Slide 3</SwiperSlide>
-    <SwiperSlide>Slide 4</SwiperSlide>
   </Swiper>
-</template>
 
+  <div>其他内容</div>
+</template>
 <style scoped></style>

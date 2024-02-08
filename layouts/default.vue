@@ -95,7 +95,7 @@
                 <svgo-qq class="text-2xl" />
               </div>
               <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
-                <svgo-weibo class="text-2xl" />
+                <svgo-douyin class="text-2xl" />
               </div>
             </div>
           </div>
