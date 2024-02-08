@@ -15,20 +15,59 @@
   <div class="app-container h-24">
     <div class="flex h-24 items-center justify-between">
       <img src="@/assets/logo/ynld-logo.png" alt="LOGO" class="h-14" />
-      <ul class="flex w-4/6 items-center justify-between">
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">网站首页</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">公司简介</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">主营业务</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">新闻咨询</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">服务支持</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">在线留言</li>
-        <li class="px-5 py-3 hover:cursor-pointer hover:bg-slate-700 hover:text-white">联系我们</li>
-      </ul>
+      <div class="flex w-4/6 items-center justify-between">
+        <nuxt-link to="/" class="px-5 py-3 hover:bg-slate-700 hover:text-white" active-class="bg-slate-700 text-white">
+          网站首页
+        </nuxt-link>
+        <nuxt-link
+          to="/gywm"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+          >关于我们
+        </nuxt-link>
+        <nuxt-link
+          to="/zyyw"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+        >
+          主营业务
+        </nuxt-link>
+        <nuxt-link
+          to="/xwzx"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+        >
+          新闻咨询
+        </nuxt-link>
+        <nuxt-link
+          to="/fwzc"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+        >
+          服务支持
+        </nuxt-link>
+        <nuxt-link
+          to="/zxly"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+        >
+          在线留言
+        </nuxt-link>
+        <nuxt-link
+          to="/lxwm"
+          class="px-5 py-3 hover:bg-slate-700 hover:text-white"
+          active-class="bg-slate-700 text-white"
+        >
+          联系我们
+        </nuxt-link>
+      </div>
     </div>
   </div>
 
   <!-- 内容区域 -->
-  <slot />
+  <div class="min-h-[calc(100vh-456px)]">
+    <slot />
+  </div>
 
   <!-- 底部信息区域 -->
   <div class="h-80 bg-slate-800">
@@ -39,9 +78,9 @@
             <img src="@/assets/images/ynld-code.png" alt="" class="float-left mr-5 h-full" />
             <div class="h-12 text-2xl font-normal">亚诺隆德科技有限公司</div>
             <div class="flex h-28 flex-col justify-between">
-              <div>联系地址：广东省中山市南头金湾广场B座16号</div>
-              <div>联系电话：400-992-9891</div>
-              <div>邮箱：service@pageadmin.net</div>
+              <div>联系地址：山东省济宁市任城区共青团路15-5号</div>
+              <div>联系电话：400-010-7890</div>
+              <div>邮箱：service@ynld.net</div>
               <div>网址：www.ynld.com</div>
             </div>
           </div>
@@ -49,13 +88,13 @@
             <div class="h-12">Focus on software development and services</div>
             <div class="h-10 text-right text-2xl">专注于软件研发和服务</div>
             <div class="flex flex-1 items-end justify-end">
-              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
                 <svgo-weixin class="text-2xl" />
               </div>
-              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+              <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
                 <svgo-qq class="text-2xl" />
               </div>
-              <div class="flex h-10 w-10 items-center justify-center rounded-full border hover:cursor-pointer">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
                 <svgo-weibo class="text-2xl" />
               </div>
             </div>

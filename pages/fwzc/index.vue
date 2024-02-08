@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="bg-sky-200">
-    123
-  </div>
+  <div>服务支持</div>
 </template>
 
 <style scoped></style>
