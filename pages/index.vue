@@ -5,9 +5,9 @@ import 'swiper/css';
 
 <template>
   <!-- 轮播图 -->
-  <Swiper class="h-[50rem] max-w-[100rem] bg-sky-200">
+  <Swiper class="max-h-[50rem] max-w-[120rem] bg-sky-200">
     <SwiperSlide>
-      <img src="@/assets/images/banner01.jpg" alt="Banner01" />
+      <img src="@/assets/images/banner01.jpg" alt="Banner01" class="" />
     </SwiperSlide>
     <SwiperSlide>Slide 2</SwiperSlide>
   </Swiper>
