@@ -11,7 +11,14 @@ export default {
     './error.vue'
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#334155',
+        secondary: '#1e293b',
+        't-primary': '#333333',
+        't-secondary': '#666666'
+      }
+    }
   },
   plugins: []
 } satisfies Config;
