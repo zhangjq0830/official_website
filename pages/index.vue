@@ -27,13 +27,6 @@ import 'swiper/css';
     </div>
   </div>
 
-
-
-  <!--  <div class="mb-8 flex h-[6rem] w-[6rem] items-center justify-center rounded-full border-4">
-      <svgo-website class="text-6xl text-white" />
-    </div>
-    <div class="text-2xl text-white">网站建设</div>-->
-
   <!-- 解决方案 -->
   <div class="bg-stone-100 py-16">
     <div class="app-container">
@@ -43,15 +36,45 @@ import 'swiper/css';
       </div>
       <div class="grid h-[23rem] grid-cols-5">
         <div class="flex flex-col items-center justify-center bg-[url('@/assets/images/inner01.jpg')]">
-          <div class="h-full w-full bg-black/[0.4]">
-
+          <div class="flex h-full w-full flex-col items-center justify-center bg-black/[0.6]">
+            <div class="mb-10 flex h-[7rem] w-[7rem] items-center justify-center rounded-full border-4">
+              <svgo-website class="h-16 w-16 text-white" :fontControlled="false" />
+            </div>
+            <div class="text-2xl text-white">网站建设</div>
           </div>
         </div>
-
-        <div class="bg-amber-200">移动应用</div>
-        <div class="bg-amber-400">软件开发</div>
-        <div class="bg-amber-300">系统集成</div>
-        <div class="bg-amber-500">政企服务</div>
+        <div class="flex flex-col items-center justify-center bg-[url('@/assets/images/inner02.jpg')]">
+          <div class="flex h-full w-full flex-col items-center justify-center bg-black/[0.6]">
+            <div class="mb-10 flex h-[7rem] w-[7rem] items-center justify-center rounded-full border-4">
+              <svgo-phone class="h-16 w-16 text-white" :fontControlled="false" />
+            </div>
+            <div class="text-2xl text-white">移动应用</div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-[url('@/assets/images/inner03.jpg')]">
+          <div class="flex h-full w-full flex-col items-center justify-center bg-black/[0.6]">
+            <div class="mb-10 flex h-[7rem] w-[7rem] items-center justify-center rounded-full border-4">
+              <svgo-code class="h-16 w-16 text-white" :fontControlled="false" />
+            </div>
+            <div class="text-2xl text-white">软件开发</div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-[url('@/assets/images/inner04.jpg')]">
+          <div class="flex h-full w-full flex-col items-center justify-center bg-black/[0.6]">
+            <div class="mb-10 flex h-[7rem] w-[7rem] items-center justify-center rounded-full border-4">
+              <svgo-integration class="h-16 w-16 text-white" :fontControlled="false" />
+            </div>
+            <div class="text-2xl text-white">系统集成</div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-[url('@/assets/images/inner05.jpg')]">
+          <div class="flex h-full w-full flex-col items-center justify-center bg-black/[0.6]">
+            <div class="mb-10 flex h-[7rem] w-[7rem] items-center justify-center rounded-full border-4">
+              <svgo-gov class="h-16 w-16 text-white" :fontControlled="false" />
+            </div>
+            <div class="text-2xl text-white">政企服务</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

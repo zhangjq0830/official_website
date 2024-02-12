@@ -93,7 +93,7 @@
             <div class="h-10 text-right text-2xl">专注于软件研发和服务</div>
             <div class="flex flex-1 items-end justify-end">
               <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
-                <svgo-weixin class="h-7 w-7" :fontControlled="false" />
+                <svgo-weixin class="h-6 w-6" :fontControlled="false" />
               </div>
               <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
                 <svgo-qq class="h-6 w-6" :fontControlled="false" />
