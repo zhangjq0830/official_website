@@ -2,7 +2,7 @@
 
 <template>
   <!-- 顶部信息区域 -->
-  <div class="bg-primary h-10">
+  <div class="h-10 bg-primary">
     <div class="app-container">
       <div class="flex h-10 items-center justify-between">
         <div class="text-sm text-white">欢迎进入亚诺隆德科技有限公司官方网站</div>
@@ -18,48 +18,48 @@
       <div class="flex w-4/6 items-center justify-between">
         <nuxt-link
           to="/"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           网站首页
         </nuxt-link>
         <nuxt-link
           to="/gywm"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
           >关于我们
         </nuxt-link>
         <nuxt-link
           to="/zyyw"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           主营业务
         </nuxt-link>
         <nuxt-link
           to="/xwzx"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           新闻咨询
         </nuxt-link>
         <nuxt-link
           to="/fwzc"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           服务支持
         </nuxt-link>
         <nuxt-link
           to="/zxly"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           在线留言
         </nuxt-link>
         <nuxt-link
           to="/lxwm"
-          class="hover:bg-primary text-t-primary px-5 py-3 hover:text-white"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           联系我们
@@ -74,7 +74,7 @@
   </div>
 
   <!-- 底部信息区域 -->
-  <div class="bg-secondary h-80">
+  <div class="h-80 bg-secondary">
     <div class="app-container">
       <div class="flex h-60 w-full items-center justify-between">
         <div class="flex h-40 w-full justify-between">
@@ -93,13 +93,13 @@
             <div class="h-10 text-right text-2xl">专注于软件研发和服务</div>
             <div class="flex flex-1 items-end justify-end">
               <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
-                <svgo-weixin class="text-2xl" />
+                <svgo-weixin class="h-7 w-7" :fontControlled="false" />
               </div>
               <div class="mr-4 flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
-                <svgo-qq class="text-2xl" />
+                <svgo-qq class="h-6 w-6" :fontControlled="false" />
               </div>
               <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 hover:cursor-pointer">
-                <svgo-douyin class="text-2xl" />
+                <svgo-douyin class="h-6 w-6" :fontControlled="false" />
               </div>
             </div>
           </div>
