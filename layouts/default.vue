@@ -1,4 +1,5 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
   <!-- 顶部信息区域 -->
@@ -37,19 +38,20 @@
           主营业务
         </nuxt-link>
         <nuxt-link
+          to="/fwzc"
+          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
+          active-class="bg-primary text-white"
+        >
+          案例分享
+        </nuxt-link>
+        <nuxt-link
           to="/xwzx"
           class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
           新闻咨询
         </nuxt-link>
-        <nuxt-link
-          to="/fwzc"
-          class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
-          active-class="bg-primary text-white"
-        >
-          服务支持
-        </nuxt-link>
+
         <nuxt-link
           to="/zxly"
           class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
