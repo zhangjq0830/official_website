@@ -28,7 +28,7 @@ import 'swiper/css';
   </div>
 
   <!-- 主营业务 -->
-  <div class="bg-stone-100 py-16">
+  <div class="bg-[url('@/assets/images/bg01.jpg')] bg-cover bg-center py-16">
     <div class="app-container">
       <div class="mb-4 text-center">
         <div class="mb-2 text-3xl font-bold text-t-primary">我们能为您做什么</div>
@@ -121,11 +121,14 @@ import 'swiper/css';
           </div>
         </div>
       </div>
+      <div class="mt-10 text-center">
+        <button class="button-primary">全部业务</button>
+      </div>
     </div>
   </div>
 
   <!-- 业务咨询 -->
-  <div class="mx-auto flex h-[30rem] max-w-[120rem] justify-end bg-[url('@/assets/images/business.jpg')]">
+  <div class="flex h-[28rem] justify-end bg-[url('@/assets/images/business.jpg')] bg-cover bg-center">
     <div class="my-16 w-1/2 text-white">
       <div class="text-4xl font-bold tracking-wider">
         <div class="mb-8">来自互联网优秀的技术研发团队</div>
@@ -142,7 +145,7 @@ import 'swiper/css';
         </div>
         <div class="mx-8 flex flex-col items-center">
           <div
-            class="relative mb-1 text-4xl font-bold after:absolute after:-right-5 after:-top-0 after:text-sm after:content-['年']"
+            class="relative mb-1 text-4xl font-bold after:absolute after:-right-5 after:-top-0 after:text-base after:content-['年']"
           >
             15
           </div>
@@ -157,6 +160,9 @@ import 'swiper/css';
           <div class="text-lg tracking-wider">研发团队</div>
         </div>
       </div>
+      <div class="mt-12">
+        <button class="button-ghost">业务咨询</button>
+      </div>
     </div>
   </div>
 
@@ -166,8 +172,29 @@ import 'swiper/css';
       <div class="mb-2 text-3xl font-bold text-t-primary">案例分享</div>
       <div class="text-lg text-t-primary">秉持以人为本、客户至上的经营思想</div>
     </div>
-
-    <div>1231232</div>
+    <div class="grid h-[14rem] grid-cols-3 gap-5">
+      <div class="group relative overflow-hidden hover:cursor-pointer">
+        <img src="@/assets/images/building.jpg" alt="" class="h-full w-full duration-500 group-hover:scale-110" />
+        <div class="absolute bottom-0 h-[2rem] w-full bg-black/[0.65] text-center leading-[2rem] text-white">
+          客户关系管理平台
+        </div>
+      </div>
+      <div class="group relative overflow-hidden hover:cursor-pointer">
+        <img src="@/assets/images/building.jpg" alt="" class="h-full w-full duration-500 group-hover:scale-110" />
+        <div class="absolute bottom-0 h-[2rem] w-full bg-black/[0.65] text-center leading-[2rem] text-white">
+          人力资源管理系统
+        </div>
+      </div>
+      <div class="group relative overflow-hidden hover:cursor-pointer">
+        <img src="@/assets/images/building.jpg" alt="" class="h-full w-full duration-500 group-hover:scale-110" />
+        <div class="absolute bottom-0 h-[2rem] w-full bg-black/[0.65] text-center leading-[2rem] text-white">
+          图书在线管理系统
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <button class="button-primary">更多案例</button>
+    </div>
   </div>
 </template>
 <style scoped></style>
