@@ -122,7 +122,7 @@ import 'swiper/css';
         </div>
       </div>
       <div class="mt-10 text-center">
-        <button class="button-primary">全部业务</button>
+        <button class="button-primary">业务详情</button>
       </div>
     </div>
   </div>
@@ -194,6 +194,38 @@ import 'swiper/css';
     </div>
     <div class="mt-10 text-center">
       <button class="button-primary">更多案例</button>
+    </div>
+  </div>
+
+  <!-- 新闻资讯 -->
+  <div class="bg-[url('@/assets/images/bg01.jpg')] bg-cover bg-center py-16">
+    <div class="app-container">
+      <div class="mb-4 text-center">
+        <div class="mb-2 text-3xl font-bold text-t-primary">新闻咨询</div>
+        <div class="text-lg text-t-primary">官方发布的最新动态或消息，为您提供第一手资讯</div>
+      </div>
+      <div class="flex h-[25rem]">
+        <div class="grid w-[25rem] grid-rows-3 bg-amber-100">
+          <div class="flex items-center bg-amber-200 px-6">
+            <svgo-arrow-right class="h-6 w-6" :fontControlled="false" />
+            <div class="ml-2">
+              <div class="text-2xl">行业洞察</div>
+              <div class="">行业洞察行业洞察行业洞察行业洞察</div>
+            </div>
+          </div>
+
+          <div class="flex items-center bg-amber-300">
+            <svgo-arrow-right class="h-6 w-6" :fontControlled="false" />
+            <div class="ml-2 text-2xl">行业洞察</div>
+          </div>
+
+          <div class="flex items-center bg-amber-400">
+            <svgo-arrow-right class="h-6 w-6" :fontControlled="false" />
+            <div class="ml-2 text-2xl">行业洞察</div>
+          </div>
+        </div>
+        <div class="flex-1 bg-amber-200">2</div>
+      </div>
     </div>
   </div>
 </template>
