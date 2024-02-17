@@ -38,7 +38,7 @@
           主营业务
         </nuxt-link>
         <nuxt-link
-          to="/fwzc"
+          to="/alfx"
           class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
         >
