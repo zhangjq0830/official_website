@@ -8,7 +8,13 @@ const modules = [Autoplay, EffectFade];
 
 <template>
   <!-- 轮播图 -->
-  <Swiper class="max-h-[50rem] max-w-[120rem]" effect="fade" :modules="modules" loop :autoplay="{ delay: 3000 }">
+  <Swiper
+    class="max-h-[50rem] max-w-[120rem]"
+    effect="fade"
+    :modules="modules"
+    loop
+    :autoplay="{ delay: 3000, disableOnInteraction: false }"
+  >
     <SwiperSlide>
       <img src="@/assets/images/banner01.jpg" alt="Banner01" />
     </SwiperSlide>
@@ -208,7 +214,7 @@ const modules = [Autoplay, EffectFade];
         <div class="text-lg text-t-primary">官方发布的最新动态或消息，为您提供第一手资讯</div>
       </div>
       <div class="grid gap-5">
-        <div class="h-[12rem] bg-white/[0.8] hover:cursor-pointer hover:bg-white">
+        <div class="h-[12rem] bg-white/[0.75] hover:cursor-pointer hover:bg-white/[0.5]">
           <div class="h-full px-5 py-5">
             <img
               src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
@@ -225,7 +231,7 @@ const modules = [Autoplay, EffectFade];
             </div>
           </div>
         </div>
-        <div class="h-[12rem] bg-white/[0.8] hover:cursor-pointer hover:bg-white">
+        <div class="h-[12rem] bg-white/[0.75] hover:cursor-pointer hover:bg-white/[0.5]">
           <div class="h-full px-5 py-5">
             <img
               src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
@@ -260,7 +266,7 @@ const modules = [Autoplay, EffectFade];
       class="h-[6rem]"
       :modules="modules"
       loop
-      :autoplay="{ delay: 2000 }"
+      :autoplay="{ delay: 2000, disableOnInteraction: false }"
       :slides-per-view="6"
       :space-between="20"
     >

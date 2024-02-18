@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <!-- 顶部信息区域 -->
@@ -80,15 +79,13 @@
     <div class="app-container">
       <div class="flex h-60 w-full items-center justify-between">
         <div class="flex h-40 w-full justify-between">
-          <div class="h-40 w-3/5 text-white">
+          <div class="h-40 w-[50rem] text-white">
             <img src="@/assets/images/ynld-code.png" alt="" class="float-left mr-5 h-full" />
-            <div class="h-12 text-2xl font-normal">亚诺隆德科技有限公司</div>
-            <div class="flex h-28 flex-col justify-between">
-              <div>联系地址：山东省济宁市任城区共青团路15-5号</div>
-              <div>联系电话：400-010-7890</div>
-              <div>邮箱：service@ynld.net</div>
-              <div>网址：www.ynld.com</div>
-            </div>
+            <div class="mb-4 text-2xl font-normal">亚诺隆德科技有限公司</div>
+            <div class="mb-1.5">联系地址：山东省济宁市任城区共青团路15-5号</div>
+            <div class="mb-1.5">联系电话：400-010-7890</div>
+            <div class="mb-1.5">邮箱：service@ynld.net</div>
+            <div>网址：www.ynld.com</div>
           </div>
           <div class="flex flex-col text-white">
             <div class="h-12">Focus on software development and services</div>
