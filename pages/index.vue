@@ -30,7 +30,7 @@ import 'swiper/css';
   <!-- 主营业务 -->
   <div class="bg-[url('@/assets/images/bg01.jpg')] bg-cover bg-center py-16">
     <div class="app-container">
-      <div class="mb-4 text-center">
+      <div class="mb-5 text-center">
         <div class="mb-2 text-3xl font-bold text-t-primary">我们能为您做什么</div>
         <div class="text-lg text-t-primary">满足从基础到复杂的各种需求，提供创新、灵活的解决方案。</div>
       </div>
@@ -168,7 +168,7 @@ import 'swiper/css';
 
   <!-- 案例分享 -->
   <div class="app-container py-16">
-    <div class="mb-4 text-center">
+    <div class="mb-5 text-center">
       <div class="mb-2 text-3xl font-bold text-t-primary">案例分享</div>
       <div class="text-lg text-t-primary">秉持以人为本、客户至上的经营思想</div>
     </div>
@@ -200,47 +200,43 @@ import 'swiper/css';
   <!-- 新闻资讯 -->
   <div class="bg-[url('@/assets/images/bg01.jpg')] bg-cover bg-center py-16">
     <div class="app-container">
-      <div class="mb-4 text-center">
+      <div class="mb-5 text-center">
         <div class="mb-2 text-3xl font-bold text-t-primary">新闻动态</div>
         <div class="text-lg text-t-primary">官方发布的最新动态或消息，为您提供第一手资讯</div>
       </div>
-
       <div class="grid gap-5">
-        <div class="h-[12rem] hover:cursor-pointer bg-white">
-          <div class="flex h-full px-5 py-5">
+        <div class="h-[12rem] bg-white/[0.8] hover:cursor-pointer hover:bg-white">
+          <div class="h-full px-5 py-5">
             <img
               src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
               alt=""
-              class="mr-5 h-full w-[15rem]"
+              class="float-left mr-5 h-full w-[15rem]"
             />
-            <div>
-              <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
-              <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
-                近日，中央广播电视总台首届《国潮盛典》晚会在CCTV-2播出，旨在全面展示国货新实力，助力打造国潮品牌竞争力，助推中国经济高质量发展。亚信科技旗下艾瑞数智受委托为晚会编制“2023国潮趋势”系列报告，从科技、商业、生活、出海等维度解析时下强劲的国货风潮。
-              </div>
-              <div class="flex items-center text-sm text-t-secondary">
-                <svgo-time class="h-4 w-4" :fontControlled="false" />
-                <span class="ml-1">发布时间：2023-12-01</span>
-              </div>
+            <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
+            <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
+              近日，中央广播电视总台首届《国潮盛典》晚会在CCTV-2播出，旨在全面展示国货新实力，助力打造国潮品牌竞争力，助推中国经济高质量发展。亚信科技旗下艾瑞数智受委托为晚会编制“2023国潮趋势”系列报告，从科技、商业、生活、出海等维度解析时下强劲的国货风潮。
+            </div>
+            <div class="flex items-center text-sm text-t-secondary">
+              <svgo-time class="h-4 w-4" :fontControlled="false" />
+              <span class="ml-1">发布时间：2023-12-01</span>
             </div>
           </div>
         </div>
-        <div class="h-[12rem] hover:cursor-pointer bg-white">
-          <div class="flex h-full px-5 py-5">
+        <div class="h-[12rem] bg-white/[0.8] hover:cursor-pointer hover:bg-white">
+          <div class="h-full px-5 py-5">
             <img
               src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
               alt=""
-              class="mr-5 h-full w-[15rem]"
+              class="float-left mr-5 h-full w-[15rem]"
             />
-            <div>
-              <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
-              <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
-                走进海南陵水，农户屋顶上一片片太阳能光伏板绵延数公里。
-              </div>
-              <div class="flex items-center text-sm text-t-secondary">
-                <svgo-time class="h-4 w-4" :fontControlled="false" />
-                <span class="ml-1">发布时间：2023-12-01</span>
-              </div>
+
+            <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
+            <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
+              走进海南陵水，农户屋顶上一片片太阳能光伏板绵延数公里。
+            </div>
+            <div class="flex items-center text-sm text-t-secondary">
+              <svgo-time class="h-4 w-4" :fontControlled="false" />
+              <span class="ml-1">发布时间：2023-12-01</span>
             </div>
           </div>
         </div>
@@ -256,6 +252,27 @@ import 'swiper/css';
     <div class="mb-4 text-center">
       <div class="mb-2 text-3xl font-bold text-t-primary">合作伙伴</div>
       <div class="text-lg text-t-primary">秉持以人为本、客户至上的经营思想</div>
+    </div>
+
+    <div class="grid grid-cols-6 gap-5">
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Honor</div>
+      </div>
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Xiaomi</div>
+      </div>
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Huawei</div>
+      </div>
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Alibaba</div>
+      </div>
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Bytedance</div>
+      </div>
+      <div class="h-[6rem] bg-gray-100">
+        <div class="text-center text-lg leading-[6rem] text-t-secondary">Tencent</div>
+      </div>
     </div>
   </div>
 </template>
