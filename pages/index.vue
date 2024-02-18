@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
+import { Autoplay, EffectFade } from 'swiper/modules';
+
+const modules = [Autoplay, EffectFade];
 </script>
 
 <template>
   <!-- 轮播图 -->
-  <Swiper class="max-h-[50rem] max-w-[120rem]">
+  <Swiper class="max-h-[50rem] max-w-[120rem]" effect="fade" :modules="modules" loop :autoplay="{ delay: 3000 }">
     <SwiperSlide>
       <img src="@/assets/images/banner01.jpg" alt="Banner01" />
     </SwiperSlide>
@@ -253,27 +256,28 @@ import 'swiper/css';
       <div class="mb-2 text-3xl font-bold text-t-primary">合作伙伴</div>
       <div class="text-lg text-t-primary">秉持以人为本、客户至上的经营思想</div>
     </div>
-
-    <div class="grid grid-cols-6 gap-5">
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Honor</div>
-      </div>
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Xiaomi</div>
-      </div>
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Huawei</div>
-      </div>
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Alibaba</div>
-      </div>
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Bytedance</div>
-      </div>
-      <div class="h-[6rem] bg-gray-100">
-        <div class="text-center text-lg leading-[6rem] text-t-secondary">Tencent</div>
-      </div>
-    </div>
+    <swiper
+      class="h-[6rem]"
+      :modules="modules"
+      loop
+      :autoplay="{ delay: 2000 }"
+      :slides-per-view="6"
+      :space-between="20"
+    >
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Honor</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Xiaomi</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Huawei</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Alibaba</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Bytedance</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Tencent</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Google</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Facebook</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Twitter</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Github</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Gitee</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">One Plus</SwiperSlide>
+      <SwiperSlide class="bg-gray-100 text-center text-lg leading-[6rem] text-t-secondary">Iqoo</SwiperSlide>
+    </swiper>
   </div>
 </template>
 <style scoped></style>
