@@ -24,7 +24,7 @@
           网站首页
         </nuxt-link>
         <nuxt-link
-          to="/gywm"
+          to="/gywm/gsjj"
           class="px-5 py-3 text-t-primary hover:bg-primary hover:text-white"
           active-class="bg-primary text-white"
           >关于我们

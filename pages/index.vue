@@ -1,9 +1,15 @@
 <script setup lang="ts">
+//swiper相关
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import { Autoplay, EffectFade } from 'swiper/modules';
 
+const router = useRouter();
 const modules = [Autoplay, EffectFade];
+
+const to = (url: string) => {
+  router.push(url);
+};
 </script>
 
 <template>
@@ -32,7 +38,9 @@ const modules = [Autoplay, EffectFade];
       <p class="mb-5 text-justify leading-7 tracking-wider text-t-primary">
         是一家专注于提供全方位软件解决方案的创新型公司。我们致力于通过尖端的技术和独特的方法，推动客户的业务发展和创新。自成立以来，我们始终坚持以人为本，科技引领的原则，汇聚了一批行业内顶尖的软件开发工程师和技术专家。他们凭借丰富的经验和专业知识，为我们提供了强大的技术支持，使我们能够为客户提供最优质的服务。我们的业务范围涵盖了定制软件开发、移动应用开发、云计算服务、大数据分析等多个领域。无论是初创公司还是大型企业，我们都能提供适合其需求的软件解决方案，帮助他们提升业务效率，实现业务目标。
       </p>
-      <button class="button-primary">了解更多</button>
+      <button class="rounded border bg-primary px-12 py-2.5 text-sm text-white hover:bg-secondary" @click="to('/gywm/gsjj')">
+        了解更多
+      </button>
     </div>
   </div>
 
@@ -131,7 +139,7 @@ const modules = [Autoplay, EffectFade];
         </div>
       </div>
       <div class="mt-10 text-center">
-        <button class="button-primary">业务详情</button>
+        <button class="rounded border bg-primary px-12 py-2.5 text-sm text-white hover:bg-secondary">业务详情</button>
       </div>
     </div>
   </div>
@@ -170,7 +178,7 @@ const modules = [Autoplay, EffectFade];
         </div>
       </div>
       <div class="mt-12">
-        <button class="button-ghost">业务咨询</button>
+        <button class="rounded border px-12 py-2.5 text-sm text-white">业务咨询</button>
       </div>
     </div>
   </div>
@@ -202,7 +210,7 @@ const modules = [Autoplay, EffectFade];
       </div>
     </div>
     <div class="mt-10 text-center">
-      <button class="button-primary">更多案例</button>
+      <button class="rounded border bg-primary px-12 py-2.5 text-sm text-white hover:bg-secondary">更多案例</button>
     </div>
   </div>
 
@@ -216,11 +224,7 @@ const modules = [Autoplay, EffectFade];
       <div class="grid gap-5">
         <div class="h-[12rem] bg-white/[0.75] hover:cursor-pointer hover:bg-white/[0.5]">
           <div class="h-full px-5 py-5">
-            <img
-              src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
-              alt=""
-              class="float-left mr-5 h-full w-[15rem]"
-            />
+            <img src="@/assets/images/building.jpg" alt="" class="float-left mr-5 h-full w-[15rem]" />
             <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
             <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
               近日，中央广播电视总台首届《国潮盛典》晚会在CCTV-2播出，旨在全面展示国货新实力，助力打造国潮品牌竞争力，助推中国经济高质量发展。亚信科技旗下艾瑞数智受委托为晚会编制“2023国潮趋势”系列报告，从科技、商业、生活、出海等维度解析时下强劲的国货风潮。
@@ -233,12 +237,7 @@ const modules = [Autoplay, EffectFade];
         </div>
         <div class="h-[12rem] bg-white/[0.75] hover:cursor-pointer hover:bg-white/[0.5]">
           <div class="h-full px-5 py-5">
-            <img
-              src="http://t2620.mbdemo.18inter.com/upload/images/2021/03/19/151837_1_22.jpg"
-              alt=""
-              class="float-left mr-5 h-full w-[15rem]"
-            />
-
+            <img src="@/assets/images/building.jpg" alt="" class="float-left mr-5 h-full w-[15rem]" />
             <div class="mb-3 text-xl font-bold text-t-primary">2024年世界移动大会（MWC 2024）</div>
             <div class="mb-3 line-clamp-3 h-[5rem] leading-7 text-t-primary">
               走进海南陵水，农户屋顶上一片片太阳能光伏板绵延数公里。
@@ -251,7 +250,7 @@ const modules = [Autoplay, EffectFade];
         </div>
       </div>
       <div class="mt-10 text-center">
-        <button class="button-primary">更多新闻</button>
+        <button class="rounded border bg-primary px-12 py-2.5 text-sm text-white hover:bg-secondary">更多新闻</button>
       </div>
     </div>
   </div>

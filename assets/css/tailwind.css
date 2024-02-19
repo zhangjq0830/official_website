@@ -7,12 +7,4 @@
     .app-container {
         @apply w-[1230px] my-0  mx-auto
     }
-
-    .button-primary {
-        @apply px-12 py-2.5 bg-primary text-white rounded text-sm hover:bg-secondary border
-    }
-
-    .button-ghost {
-        @apply px-12 py-2.5 text-white rounded text-sm border
-    }
 }
